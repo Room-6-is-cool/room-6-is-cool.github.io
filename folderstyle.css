@@ -10,3 +10,11 @@ p {
 a {
   font-family: "Comic Sans MS", "Comic Sans", Chilanka, Arial, Helvetica, sans-serif;
 }
+
+header {
+  color: #47ad73;
+}
+footer {
+  color: #47ad73;
+  height: 50px;
+}
