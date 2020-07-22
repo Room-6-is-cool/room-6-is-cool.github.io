@@ -6,5 +6,5 @@ if (!(document.title == "Room 6 is cool!")) {
 	var warningC = document.createTextNode("Orion has probably tampered with this page.");
 	warningP.appendChild(warningC);
 	warningDiv.appendChild(warningP);
-	document.getElementById("mainContent").appendChild(warningDiv);
+	document.getElementById("mainContent").insertBefore(warningDiv, document.getElementById("kettle3d"));
 }
