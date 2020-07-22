@@ -12,10 +12,10 @@ a {
 }
 
 header {
-  fill: #47ad73;
+  background-color: #47ad73;
   height: 50px;
 }
 footer {
-  fill: #47ad73;
+  background-color: #47ad73;
   height: 50px;
 }
