@@ -59,5 +59,7 @@ else {
 		
 		mainContent.appendChild(header);
 		mainContent.appendChild(k3dlink);
+		
+		document.title = "Links | Room 6 is cool!";
 	}
 }
