@@ -1,0 +1,7 @@
+  <head><title>Page 1</title>
+  <link rel="stylesheet" href="folderstyle.css" /></head>
+  <body>
+    <a onclick="window.open('./page1', '_blank');">Click here to go to page 76"</a>
+    <a onclick="window.open('./page1', '_blank');">Click here to go to page 76</a>
+  </body>
+</html>
