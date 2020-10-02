@@ -18,6 +18,8 @@ if (!params.has('page')) {
 	// Add these elements to mainContent
 	mainContent.appendChild(header);
 	mainContent.appendChild(doge);
+	
+	document.title = "Room 6 is cool!";
 }
 
 else {
@@ -34,6 +36,8 @@ else {
 		// Add these elements to mainContent
 		mainContent.appendChild(header);
 		mainContent.appendChild(doge);
+		
+		document.title = "Room 6 is cool!";
 	}
 	
 	if (params.get('page') == 'links') {
@@ -45,6 +49,11 @@ else {
 		k3dlink.href = 'https://kettle3d.github.io/';
 		var ltn = document.createTextNode("Kettle3D - A great game that we're working on");
 		k3dlink.appendChild(ltn);
+		
+		var s_link = document.createElement('a');
+		s_link.href = 'https://github.com/Room-6-is-cool/room-6-is-cool.github.io/tree/master';
+		var sltn = document.createTextNode("Source code for this website");
+		k3dlink.appendChild(sltn);
 		
 		mainContent.appendChild(header);
 		mainContent.appendChild(k3dlink);
