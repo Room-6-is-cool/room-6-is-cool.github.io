@@ -53,10 +53,11 @@ else {
 		var s_link = document.createElement('a');
 		s_link.href = 'https://github.com/Room-6-is-cool/room-6-is-cool.github.io/tree/master';
 		var sltn = document.createTextNode("Source code for this website");
-		k3dlink.appendChild(sltn);
+		s_link.appendChild(sltn);
 		
 		mainContent.appendChild(header);
 		mainContent.appendChild(k3dlink);
+		mainContent.appendChild(s_link);
 		
 		document.title = "Links | Room 6 is cool!";
 	}
