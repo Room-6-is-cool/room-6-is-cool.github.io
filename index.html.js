@@ -57,9 +57,17 @@ else {
 		
 		mainContent.appendChild(header);
 		mainContent.appendChild(k3dlink);
+		mainContent.appendChild(document.createElement('br'));
 		mainContent.appendChild(s_link);
 		
 		document.title = "Links | Room 6 is cool!";
+	}
+	
+	if (params.get('page') == 'tabs') {
+		window.open('/?page=tabz', '_blank');
+	}
+	else if (params.get('page') == 'tabz') {
+		window.open('/?page=tabs', '_blank');
 	}
 	
 	if (params.get('page') == 'tab-spam') {
